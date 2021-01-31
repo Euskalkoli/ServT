@@ -1,0 +1,69 @@
+function task1() {
+
+var z1 = Math.ceil(Math.random() * 10;
+var z2 = Math.ceil(Math.random() * 10;
+
+	if (z1 > z2) {
+		console.log(z2 + "is less than" + z1);
+		console.log(z1 + "is greater than" + z2);
+
+	} else if (z2 > z1) {
+		console.log(z1 + "is less than" + z2);
+		console.log(z2 + "is greater than" + z1);
+
+	} else
+		console.log(z1 + "is equal to" + z2);
+}
+
+
+function task2(min, max) {
+
+	for (let i = min; i < max; i++) {
+		if(i % 2 === 0) {
+			console.log(i);
+		}
+	}
+
+	for (let i=min; i < max; i++) {
+		if(i % 2 !== 0) {
+			
+			;
+		}
+	}
+	console.log(i)
+}
+
+function task3(min, max) {
+
+var zenbakiak = [];
+
+	for (let i = min ; i < max ; i++) {
+		if(i % 2 === 0) {
+			zenbakiak.push(i);
+		}
+	}
+
+	for (let i = min ; i < max ; i++) {
+		if(i % 2 !== 0) {
+			zenbakiak.push(i);
+		}
+	}
+
+console.log(zenbakiak);
+}
+
+function task4(testString) {
+
+var hitza = testString;
+
+	for(var i = 0; i < (hitza.length)/2 ; i++) {
+
+		if (PlainStr[i] == hitza[hitza.length - i - 1]){
+			return true;
+
+		} else
+			return false;
+	}
+}
+
+demo();
