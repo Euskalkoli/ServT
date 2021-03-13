@@ -1,0 +1,24 @@
+· Task 1) Max 3 xp
+Return all from orders 
+
+--> SELECT * FROM Orders;
+
+· Task 2) Max 3 xp
+Return 5 highest priced products from products
+
+--> SELECT * FROM Products ORDER BY Price DESC LIMIT 5;
+
+· Task 3) Max 3 xp
+Return the average quantity from orderdetails
+
+--> SELECT AVG(Quantity) FROM OrderDetails;
+
+· Task 4) Max 3 xp
+Return all employees listed alphabetically by last name from employees
+
+--> SELECT * FROM Employees ORDER BY LastName;
+
+· Task 5) Max 3 xp
+Return all customers that are not from Brazil, sorted by country from customers
+
+--> SELECT * FROM Customers WHERE Country != 'Brazil' GROUP BY Country;
